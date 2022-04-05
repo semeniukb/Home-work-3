@@ -114,3 +114,44 @@
   font-weight: 900;
   font-style: italic;
 }
+/* Icomoon */
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?ivalb0");
+  src: url("../fonts/icomoon.eot?ivalb0#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?ivalb0") format("truetype"),
+    url("../fonts/icomoon.woff?ivalb0") format("woff"),
+    url("../fonts/icomoon.svg?ivalb0#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pinterest-p-brands:before {
+  content: "\e900";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+
+/* <span class="icon-pinterest-p-brands"></span> */
+/* <span class="icon-facebook"></span> */
+/* <span class="icon-instagram"></span> */
