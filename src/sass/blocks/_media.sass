@@ -15,6 +15,29 @@
         padding: 45px 0
         &__items
             width: 210px
+    .carousel
+        &__inner
+            img
+                width: 80%
+        .prev
+            left: -4%
+        .next
+            right: -4%
+    .tns-nav
+        text-align: center
+        margin-bottom: 15px
+    .tns-nav > [aria-controls] 
+        width: 10px
+        height: 10px
+        padding: 0
+        margin: 0 5px
+        border-radius: 50%
+        background: #ddd
+        border: 0
+    .tns-nav .tns-nav-active 
+        background: #3b3b3b
+  
+
 
 @media (max-width: 768px)
     .container
@@ -40,7 +63,7 @@
             width: 130px
             font-size: 11px
     .benefits
-        padding: 45px 30px 10px 30px
+        padding: 45px 30px 20px 30px
         &__items
             width: 165px
         &__blocks
@@ -50,8 +73,26 @@
             font-size: 15px
         &__descr
             margin-top: 20px
-            br
+            .br
                 display: inline
+    .consultation
+        padding: 50px 0 
+        &__descr
+            text-align: center
+            margin-top: 40px
+    .titles
+        &_consultation
+            text-align: center
+            font-size: 32px
+    .feed-form
+        margin: 0 auto
+        margin-top: 70px
+    .carousel
+        padding: 40px 0 
+        .arrows_off
+            display: none
+    
+
 
 
 @media (max-width: 575px)
@@ -76,8 +117,8 @@
             width: 150px
         &__phone
             margin-top: 10px
-    
     .promo
+        background-position: 3% 0%
         &__wrapper
             margin-top: 60px
         &__header
@@ -102,7 +143,6 @@
                 width: 12%
     .button_main
         width: 250px
-    
     .benefits
         padding: 30px 0
         &__blocks
@@ -119,14 +159,14 @@
         &__descr
             margin-top: 10px
             font-size: 16px
-            br
+            .br
                 display: inline
-    
     .titles
         font-size: 25px
+    .feed-form
+        width: 80%
+    
 
         
-
-
 
 @media (max-width: 320px)
