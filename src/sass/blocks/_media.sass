@@ -2,7 +2,12 @@
     .promo
         padding-bottom: 40px
     .container
-        max-width: 900px
+        max-width: 899px
+    .catalog
+        &__content
+            justify-content: space-around
+        &-item
+            margin-right: 0
 
    
 @media (max-width: 992px)
@@ -23,6 +28,8 @@
             left: -4%
         .next
             right: -4%
+    .catalog
+        padding-bottom: 50px
    
   
 
@@ -92,6 +99,31 @@
         border: 0
     .tns-nav .tns-nav-active 
         background: #3b3b3b
+    .catalog
+        &__tabs 
+            margin-top: 40px
+        &__tab
+            width: 170px
+            font-size: 16px
+    .reviews
+        padding: 0 50px
+
+        &__item
+            flex-direction: column
+        &__img
+            margin-right: 0
+            margin-bottom: 15px
+        &__info
+            padding-right: 0
+        &__title
+            text-align: center
+        &__subtitle
+            text-align: center
+        &__descr
+            text-align: 
+    .titles
+        &_padding
+            margin-bottom: 30px
     
 
 
@@ -166,6 +198,16 @@
         font-size: 25px
     .feed-form
         width: 80%
+    .catalog
+        &__tabs 
+            flex-direction: column
+
+        &__tab
+            width: 70%
+            margin-bottom: 15px
+            transform: skewX(-25deg)
+            font-size: 17px
+            
     
 
         
