@@ -30,6 +30,7 @@
             right: -4%
     .catalog
         padding-bottom: 50px
+    
    
   
 
@@ -82,6 +83,8 @@
     .feed-form
         margin: 0 auto
         margin-top: 70px
+        &_mobile
+            margin-top: 35px
     .carousel
         padding: 40px 0 
         .arrows_off
@@ -106,7 +109,7 @@
             width: 170px
             font-size: 16px
     .reviews
-        padding: 0 50px
+        padding: 20px 50px
 
         &__item
             flex-direction: column
@@ -120,10 +123,27 @@
         &__subtitle
             text-align: center
         &__descr
-            text-align: 
+            text-align: center
     .titles
         &_padding
             margin-bottom: 30px
+    .footer
+        &__info
+            bottom: 0
+            top: unset
+
+        &__info
+            width: 100%
+            height: 240px  
+            padding: 25px 40px 25px 40px 
+        &__social-item
+            &:hover
+                color: #fff
+                box-shadow: none
+                border: 2px solid #fff
+   
+
+    
     
 
 
@@ -198,6 +218,9 @@
         font-size: 25px
     .feed-form
         width: 80%
+        &_mobile
+            width: 100%
+    
     .catalog
         &__tabs 
             flex-direction: column
@@ -207,8 +230,18 @@
             margin-bottom: 15px
             transform: skewX(-25deg)
             font-size: 17px
-            
+    .footer
+        &__social-item
+            &:hover
+                color: #fff
+                box-shadow: none
+                border: 2px solid #fff
+    .modal
+       
+        &__close
+            display: none
     
+        
 
         
 
